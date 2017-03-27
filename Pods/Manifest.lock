@@ -1,0 +1,82 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.2.1)
+  - CocoaAsyncSocket (7.6.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - JSONKit (1.4)
+  - LBXScan (1.1.1):
+    - ZXingObjC (~> 3.0)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - OpenUDID (1.0.0)
+  - PhotoAlbum (0.5.0)
+  - PhotoBrowser (0.6.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZXingObjC (3.2.1):
+    - ZXingObjC/All (= 3.2.1)
+  - ZXingObjC/All (3.2.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BaiduMapKit
+  - CocoaAsyncSocket
+  - FMDB
+  - JSONKit
+  - LBXScan
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - OpenUDID
+  - PhotoAlbum
+  - PhotoBrowser
+  - SDWebImage
+  - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BaiduMapKit: 9c748785aa3dddfc41dcb70c14b21ce32f680930
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  JSONKit: 5b69e804ea54d99293eed0fd2ce596c5703fefb0
+  LBXScan: dfb4d8ae8e4cff2aa0c9e1771e43954dce1469a9
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  PhotoAlbum: e0c8051cd705f941ae485773a55a77cf1aaa4bdf
+  PhotoBrowser: e469d76e5b02d12c2427d620404c54f1c327be3c
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
+
+PODFILE CHECKSUM: a8cef9140bcf47eb1055f8cbefc705b55a08f111
+
+COCOAPODS: 1.2.0

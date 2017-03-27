@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C572131E88A5E6000EA05E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C572121E88A5E6000EA05E /* main.m */; };
+		48C572161E88A5E6000EA05E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C572151E88A5E6000EA05E /* AppDelegate.m */; };
+		48C5721C1E88A5E6000EA05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C5721A1E88A5E6000EA05E /* Main.storyboard */; };
+		48C5721F1E88A5E6000EA05E /* EasyAdjust.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48C5721D1E88A5E6000EA05E /* EasyAdjust.xcdatamodeld */; };
+		48C572211E88A5E6000EA05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C572201E88A5E6000EA05E /* Assets.xcassets */; };
+		48C572241E88A5E6000EA05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C572221E88A5E6000EA05E /* LaunchScreen.storyboard */; };
+		48C5722F1E88A5E6000EA05E /* EasyAdjustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C5722E1E88A5E6000EA05E /* EasyAdjustTests.m */; };
+		48C5723A1E88A5E6000EA05E /* EasyAdjustUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C572391E88A5E6000EA05E /* EasyAdjustUITests.m */; };
+		F474A481982C29A5B135C8F8 /* libPods-EasyAdjust.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A694FD619236433C76406E /* libPods-EasyAdjust.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C5722B1E88A5E6000EA05E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C572061E88A5E6000EA05E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C5720D1E88A5E6000EA05E;
+			remoteInfo = EasyAdjust;
+		};
+		48C572361E88A5E6000EA05E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C572061E88A5E6000EA05E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C5720D1E88A5E6000EA05E;
+			remoteInfo = EasyAdjust;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28A694FD619236433C76406E /* libPods-EasyAdjust.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyAdjust.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		486DA6331E88B25B00CE0328 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		486DA6341E88B25B00CE0328 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		48C5720E1E88A5E6000EA05E /* EasyAdjust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAdjust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C572121E88A5E6000EA05E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48C572141E88A5E6000EA05E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48C572151E88A5E6000EA05E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48C5721B1E88A5E6000EA05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48C5721E1E88A5E6000EA05E /* EasyAdjust.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyAdjust.xcdatamodel; sourceTree = "<group>"; };
+		48C572201E88A5E6000EA05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48C572231E88A5E6000EA05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48C572251E88A5E6000EA05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C5722A1E88A5E6000EA05E /* EasyAdjustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyAdjustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C5722E1E88A5E6000EA05E /* EasyAdjustTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyAdjustTests.m; sourceTree = "<group>"; };
+		48C572301E88A5E6000EA05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C572351E88A5E6000EA05E /* EasyAdjustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyAdjustUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C572391E88A5E6000EA05E /* EasyAdjustUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyAdjustUITests.m; sourceTree = "<group>"; };
+		48C5723B1E88A5E6000EA05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455E03FF3372F9AC4C46A08 /* Pods-EasyAdjust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAdjust.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAdjust/Pods-EasyAdjust.debug.xcconfig"; sourceTree = "<group>"; };
+		9E9E2FE317CADE1C5344EE70 /* Pods-EasyAdjust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAdjust.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAdjust/Pods-EasyAdjust.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C5720B1E88A5E6000EA05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F474A481982C29A5B135C8F8 /* libPods-EasyAdjust.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C572271E88A5E6000EA05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C572321E88A5E6000EA05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1562E7A59A9922054EB2F33C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8455E03FF3372F9AC4C46A08 /* Pods-EasyAdjust.debug.xcconfig */,
+				9E9E2FE317CADE1C5344EE70 /* Pods-EasyAdjust.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FDB4C49B91E0E02B9674E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A694FD619236433C76406E /* libPods-EasyAdjust.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		486DA6351E88DCB300CE0328 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				486DA6361E88DCB300CE0328 /* Bundles */,
+				486DA6371E88DCB300CE0328 /* Documents */,
+				486DA6381E88DCB300CE0328 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		486DA6361E88DCB300CE0328 /* Bundles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bundles;
+			sourceTree = "<group>";
+		};
+		486DA6371E88DCB300CE0328 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		486DA6381E88DCB300CE0328 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		486DA6391E88DCB300CE0328 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				486DA63A1E88DCB300CE0328 /* Common */,
+				486DA63B1E88DCB300CE0328 /* DataCenter */,
+				486DA63C1E88DCB300CE0328 /* Managers */,
+				486DA63D1E88DCB300CE0328 /* Modules */,
+				486DA63E1E88DCB300CE0328 /* ThirdLibrary */,
+				486DA63F1E88DCB300CE0328 /* Utils */,
+				486DA6401E88DCB300CE0328 /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		486DA63A1E88DCB300CE0328 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		486DA63B1E88DCB300CE0328 /* DataCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataCenter;
+			sourceTree = "<group>";
+		};
+		486DA63C1E88DCB300CE0328 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		486DA63D1E88DCB300CE0328 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		486DA63E1E88DCB300CE0328 /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		486DA63F1E88DCB300CE0328 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		486DA6401E88DCB300CE0328 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48C572051E88A5E6000EA05E = {
+			isa = PBXGroup;
+			children = (
+				48C572101E88A5E6000EA05E /* EasyAdjust */,
+				48C5722D1E88A5E6000EA05E /* EasyAdjustTests */,
+				48C572381E88A5E6000EA05E /* EasyAdjustUITests */,
+				48C5720F1E88A5E6000EA05E /* Products */,
+				1562E7A59A9922054EB2F33C /* Pods */,
+				3FDB4C49B91E0E02B9674E94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48C5720F1E88A5E6000EA05E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C5720E1E88A5E6000EA05E /* EasyAdjust.app */,
+				48C5722A1E88A5E6000EA05E /* EasyAdjustTests.xctest */,
+				48C572351E88A5E6000EA05E /* EasyAdjustUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C572101E88A5E6000EA05E /* EasyAdjust */ = {
+			isa = PBXGroup;
+			children = (
+				486DA6351E88DCB300CE0328 /* Resource */,
+				486DA6391E88DCB300CE0328 /* Source */,
+				48C572141E88A5E6000EA05E /* AppDelegate.h */,
+				48C572151E88A5E6000EA05E /* AppDelegate.m */,
+				48C5721A1E88A5E6000EA05E /* Main.storyboard */,
+				48C572201E88A5E6000EA05E /* Assets.xcassets */,
+				48C572221E88A5E6000EA05E /* LaunchScreen.storyboard */,
+				48C572251E88A5E6000EA05E /* Info.plist */,
+				48C5721D1E88A5E6000EA05E /* EasyAdjust.xcdatamodeld */,
+				48C572111E88A5E6000EA05E /* Supporting Files */,
+			);
+			path = EasyAdjust;
+			sourceTree = "<group>";
+		};
+		48C572111E88A5E6000EA05E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C572121E88A5E6000EA05E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48C5722D1E88A5E6000EA05E /* EasyAdjustTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C5722E1E88A5E6000EA05E /* EasyAdjustTests.m */,
+				48C572301E88A5E6000EA05E /* Info.plist */,
+			);
+			path = EasyAdjustTests;
+			sourceTree = "<group>";
+		};
+		48C572381E88A5E6000EA05E /* EasyAdjustUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48C572391E88A5E6000EA05E /* EasyAdjustUITests.m */,
+				48C5723B1E88A5E6000EA05E /* Info.plist */,
+			);
+			path = EasyAdjustUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C5720D1E88A5E6000EA05E /* EasyAdjust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C5723E1E88A5E6000EA05E /* Build configuration list for PBXNativeTarget "EasyAdjust" */;
+			buildPhases = (
+				8CFFB0B36C024830A4B14775 /* [CP] Check Pods Manifest.lock */,
+				48C5720A1E88A5E6000EA05E /* Sources */,
+				48C5720B1E88A5E6000EA05E /* Frameworks */,
+				48C5720C1E88A5E6000EA05E /* Resources */,
+				B2E3CD6E2EEF31E825680CF6 /* [CP] Embed Pods Frameworks */,
+				305AE9409B8A7B459CDAC256 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyAdjust;
+			productName = EasyAdjust;
+			productReference = 48C5720E1E88A5E6000EA05E /* EasyAdjust.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C572291E88A5E6000EA05E /* EasyAdjustTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C572411E88A5E6000EA05E /* Build configuration list for PBXNativeTarget "EasyAdjustTests" */;
+			buildPhases = (
+				48C572261E88A5E6000EA05E /* Sources */,
+				48C572271E88A5E6000EA05E /* Frameworks */,
+				48C572281E88A5E6000EA05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C5722C1E88A5E6000EA05E /* PBXTargetDependency */,
+			);
+			name = EasyAdjustTests;
+			productName = EasyAdjustTests;
+			productReference = 48C5722A1E88A5E6000EA05E /* EasyAdjustTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48C572341E88A5E6000EA05E /* EasyAdjustUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C572441E88A5E6000EA05E /* Build configuration list for PBXNativeTarget "EasyAdjustUITests" */;
+			buildPhases = (
+				48C572311E88A5E6000EA05E /* Sources */,
+				48C572321E88A5E6000EA05E /* Frameworks */,
+				48C572331E88A5E6000EA05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C572371E88A5E6000EA05E /* PBXTargetDependency */,
+			);
+			name = EasyAdjustUITests;
+			productName = EasyAdjustUITests;
+			productReference = 48C572351E88A5E6000EA05E /* EasyAdjustUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C572061E88A5E6000EA05E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DZH_Louis;
+				TargetAttributes = {
+					48C5720D1E88A5E6000EA05E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8YC2YJDRHR;
+						ProvisioningStyle = Automatic;
+					};
+					48C572291E88A5E6000EA05E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8YC2YJDRHR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48C5720D1E88A5E6000EA05E;
+					};
+					48C572341E88A5E6000EA05E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8YC2YJDRHR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48C5720D1E88A5E6000EA05E;
+					};
+				};
+			};
+			buildConfigurationList = 48C572091E88A5E6000EA05E /* Build configuration list for PBXProject "EasyAdjust" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48C572051E88A5E6000EA05E;
+			productRefGroup = 48C5720F1E88A5E6000EA05E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C5720D1E88A5E6000EA05E /* EasyAdjust */,
+				48C572291E88A5E6000EA05E /* EasyAdjustTests */,
+				48C572341E88A5E6000EA05E /* EasyAdjustUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C5720C1E88A5E6000EA05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C572241E88A5E6000EA05E /* LaunchScreen.storyboard in Resources */,
+				48C572211E88A5E6000EA05E /* Assets.xcassets in Resources */,
+				48C5721C1E88A5E6000EA05E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C572281E88A5E6000EA05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C572331E88A5E6000EA05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305AE9409B8A7B459CDAC256 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyAdjust/Pods-EasyAdjust-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFFB0B36C024830A4B14775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E3CD6E2EEF31E825680CF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyAdjust/Pods-EasyAdjust-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C5720A1E88A5E6000EA05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C5721F1E88A5E6000EA05E /* EasyAdjust.xcdatamodeld in Sources */,
+				48C572161E88A5E6000EA05E /* AppDelegate.m in Sources */,
+				48C572131E88A5E6000EA05E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C572261E88A5E6000EA05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C5722F1E88A5E6000EA05E /* EasyAdjustTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C572311E88A5E6000EA05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C5723A1E88A5E6000EA05E /* EasyAdjustUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C5722C1E88A5E6000EA05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C5720D1E88A5E6000EA05E /* EasyAdjust */;
+			targetProxy = 48C5722B1E88A5E6000EA05E /* PBXContainerItemProxy */;
+		};
+		48C572371E88A5E6000EA05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C5720D1E88A5E6000EA05E /* EasyAdjust */;
+			targetProxy = 48C572361E88A5E6000EA05E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48C5721A1E88A5E6000EA05E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C5721B1E88A5E6000EA05E /* Base */,
+				486DA6331E88B25B00CE0328 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48C572221E88A5E6000EA05E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C572231E88A5E6000EA05E /* Base */,
+				486DA6341E88B25B00CE0328 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C5723C1E88A5E6000EA05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C5723D1E88A5E6000EA05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C5723F1E88A5E6000EA05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8455E03FF3372F9AC4C46A08 /* Pods-EasyAdjust.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YC2YJDRHR;
+				INFOPLIST_FILE = EasyAdjust/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louis.EasyAdjust.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		48C572401E88A5E6000EA05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9E2FE317CADE1C5344EE70 /* Pods-EasyAdjust.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YC2YJDRHR;
+				INFOPLIST_FILE = EasyAdjust/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louis.EasyAdjust.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		48C572421E88A5E6000EA05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8YC2YJDRHR;
+				INFOPLIST_FILE = EasyAdjustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louis.EasyAdjustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyAdjust.app/EasyAdjust";
+			};
+			name = Debug;
+		};
+		48C572431E88A5E6000EA05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8YC2YJDRHR;
+				INFOPLIST_FILE = EasyAdjustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louis.EasyAdjustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyAdjust.app/EasyAdjust";
+			};
+			name = Release;
+		};
+		48C572451E88A5E6000EA05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8YC2YJDRHR;
+				INFOPLIST_FILE = EasyAdjustUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louis.EasyAdjustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyAdjust;
+			};
+			name = Debug;
+		};
+		48C572461E88A5E6000EA05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8YC2YJDRHR;
+				INFOPLIST_FILE = EasyAdjustUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Louis.EasyAdjustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyAdjust;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C572091E88A5E6000EA05E /* Build configuration list for PBXProject "EasyAdjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C5723C1E88A5E6000EA05E /* Debug */,
+				48C5723D1E88A5E6000EA05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C5723E1E88A5E6000EA05E /* Build configuration list for PBXNativeTarget "EasyAdjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C5723F1E88A5E6000EA05E /* Debug */,
+				48C572401E88A5E6000EA05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C572411E88A5E6000EA05E /* Build configuration list for PBXNativeTarget "EasyAdjustTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C572421E88A5E6000EA05E /* Debug */,
+				48C572431E88A5E6000EA05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C572441E88A5E6000EA05E /* Build configuration list for PBXNativeTarget "EasyAdjustUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C572451E88A5E6000EA05E /* Debug */,
+				48C572461E88A5E6000EA05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48C5721D1E88A5E6000EA05E /* EasyAdjust.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48C5721E1E88A5E6000EA05E /* EasyAdjust.xcdatamodel */,
+			);
+			currentVersion = 48C5721E1E88A5E6000EA05E /* EasyAdjust.xcdatamodel */;
+			path = EasyAdjust.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48C572061E88A5E6000EA05E /* Project object */;
+}

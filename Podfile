@@ -14,7 +14,6 @@ pod 'SDWebImage'
 pod 'MBProgressHUD'
 pod 'FMDB'
 pod 'JSONKit'
-pod 'MJRefresh'
 pod 'OpenUDID'
 pod 'YYKit'
 pod 'BaiduMapKit'
@@ -23,5 +22,15 @@ pod 'CocoaAsyncSocket'
 pod 'PhotoAlbum'
 pod 'PhotoBrowser'
 pod 'Masonry' #自动布局
+#MJ控件
+pod 'MJRefresh'
+pod 'MJPushManager'
+pod 'MJThemeManager'
+pod 'MJTimeManager'
+pod 'MJUtils'
+pod 'MJWUpdate'
+pod 'MJCacheManager'
+pod 'MJExtension'
+#MJ控件
 
 end

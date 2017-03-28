@@ -1,24 +1,18 @@
 PODS:
-  - AFNetworking (2.6.3):
-    - AFNetworking/NSURLConnection (= 2.6.3)
-    - AFNetworking/NSURLSession (= 2.6.3)
-    - AFNetworking/Reachability (= 2.6.3)
-    - AFNetworking/Security (= 2.6.3)
-    - AFNetworking/Serialization (= 2.6.3)
-    - AFNetworking/UIKit (= 2.6.3)
-  - AFNetworking/NSURLConnection (2.6.3):
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.3)
-  - AFNetworking/Security (2.6.3)
-  - AFNetworking/Serialization (2.6.3)
-  - AFNetworking/UIKit (2.6.3):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - BaiduMapKit (3.2.1)
   - CocoaAsyncSocket (7.6.0)
@@ -30,13 +24,30 @@ PODS:
     - ZXingObjC (~> 3.0)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
+  - MJCacheManager (0.1.0):
+    - MJWebService (~> 0.1)
+    - ModuleCapability (~> 0.1)
+  - MJExtension (3.0.13)
+  - MJPushManager (0.1.0):
+    - ModuleCapability (~> 0.1.2)
   - MJRefresh (3.1.12)
+  - MJThemeManager (0.1.0):
+    - ModuleCapability (~> 0.1.2)
+  - MJTimeManager (0.1.0):
+    - ModuleCapability (~> 0.1.2)
+  - MJUtils (0.1.1):
+    - ModuleCapability (~> 0.1.2)
+  - MJWebService (0.1.1):
+    - AFNetworking/NSURLSession (~> 3.1.0)
+    - ModuleCapability (~> 0.1.1)
+  - MJWUpdate (1.0.1)
+  - ModuleCapability (0.1.2)
   - OpenUDID (1.0.0)
   - PhotoAlbum (0.5.0)
   - PhotoBrowser (0.6.3)
-  - SDWebImage (3.7.6):
-    - SDWebImage/Core (= 3.7.6)
-  - SDWebImage/Core (3.7.6)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -53,7 +64,14 @@ DEPENDENCIES:
   - LBXScan
   - Masonry
   - MBProgressHUD
+  - MJCacheManager
+  - MJExtension
+  - MJPushManager
   - MJRefresh
+  - MJThemeManager
+  - MJTimeManager
+  - MJUtils
+  - MJWUpdate
   - OpenUDID
   - PhotoAlbum
   - PhotoBrowser
@@ -61,7 +79,7 @@ DEPENDENCIES:
   - YYKit
 
 SPEC CHECKSUMS:
-  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   BaiduMapKit: 9c748785aa3dddfc41dcb70c14b21ce32f680930
   CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
@@ -69,14 +87,23 @@ SPEC CHECKSUMS:
   LBXScan: dfb4d8ae8e4cff2aa0c9e1771e43954dce1469a9
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJCacheManager: 903b5d9290930eaecb25fad4afb0eace68ff96c1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJPushManager: e7d73b5d2dd76dd68ee673dae4e864c8ff879fd6
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MJThemeManager: 39871b08cec2e7f926c13fd4f53221782a780c2d
+  MJTimeManager: 691b176b28d4e48595d2a8f0efaba922b3a2e9b7
+  MJUtils: 0e1d68b753e897b89e4b3f2b1ef28b5993216fee
+  MJWebService: ebe871b8f7cf648e1a49daf071ada69b902d8270
+  MJWUpdate: eaa4dc64ed4f7b967705cceb4b9e6dc052003576
+  ModuleCapability: 35cea7154ff855362682e90ecf1be529a533c931
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   PhotoAlbum: e0c8051cd705f941ae485773a55a77cf1aaa4bdf
   PhotoBrowser: e469d76e5b02d12c2427d620404c54f1c327be3c
-  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
 
-PODFILE CHECKSUM: a8cef9140bcf47eb1055f8cbefc705b55a08f111
+PODFILE CHECKSUM: 835e007cbc2b1310205bee02ca6eb86c0ae944a8
 
 COCOAPODS: 1.2.0

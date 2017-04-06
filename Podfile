@@ -13,7 +13,6 @@ pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'MBProgressHUD'
 pod 'FMDB'
-pod 'JSONKit'
 pod 'OpenUDID'
 pod 'YYKit'
 pod 'BaiduMapKit'
@@ -32,5 +31,9 @@ pod 'MJWUpdate'
 pod 'MJCacheManager'
 pod 'MJExtension'
 #MJ控件
+pod 'MMDrawerController'  #抽屉效果
+pod 'MMDrawerController+Storyboard'
+pod 'GPUImage'
+pod 'CMTabbarView'
 
 end

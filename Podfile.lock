@@ -15,11 +15,12 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - BaiduMapKit (3.2.1)
+  - CMTabbarView (0.1.1)
   - CocoaAsyncSocket (7.6.0)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
-  - JSONKit (1.4)
+  - GPUImage (0.1.7)
   - LBXScan (1.1.1):
     - ZXingObjC (~> 3.0)
   - Masonry (1.0.2)
@@ -41,6 +42,20 @@ PODS:
     - AFNetworking/NSURLSession (~> 3.1.0)
     - ModuleCapability (~> 0.1.1)
   - MJWUpdate (1.0.1)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController+Storyboard (0.0.2):
+    - MMDrawerController
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
   - ModuleCapability (0.1.2)
   - OpenUDID (1.0.0)
   - PhotoAlbum (0.5.0)
@@ -58,9 +73,10 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - BaiduMapKit
+  - CMTabbarView
   - CocoaAsyncSocket
   - FMDB
-  - JSONKit
+  - GPUImage
   - LBXScan
   - Masonry
   - MBProgressHUD
@@ -72,6 +88,8 @@ DEPENDENCIES:
   - MJTimeManager
   - MJUtils
   - MJWUpdate
+  - MMDrawerController
+  - MMDrawerController+Storyboard
   - OpenUDID
   - PhotoAlbum
   - PhotoBrowser
@@ -81,9 +99,10 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   BaiduMapKit: 9c748785aa3dddfc41dcb70c14b21ce32f680930
+  CMTabbarView: 6a66fa1f17a0c789c8484c26d7bd17fd6189fa7e
   CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
-  JSONKit: 5b69e804ea54d99293eed0fd2ce596c5703fefb0
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   LBXScan: dfb4d8ae8e4cff2aa0c9e1771e43954dce1469a9
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
@@ -96,6 +115,8 @@ SPEC CHECKSUMS:
   MJUtils: 0e1d68b753e897b89e4b3f2b1ef28b5993216fee
   MJWebService: ebe871b8f7cf648e1a49daf071ada69b902d8270
   MJWUpdate: eaa4dc64ed4f7b967705cceb4b9e6dc052003576
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  MMDrawerController+Storyboard: c98f86c0f32cdef1d466d19a7da3ad2fc6c6ac00
   ModuleCapability: 35cea7154ff855362682e90ecf1be529a533c931
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   PhotoAlbum: e0c8051cd705f941ae485773a55a77cf1aaa4bdf
@@ -104,6 +125,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
 
-PODFILE CHECKSUM: 835e007cbc2b1310205bee02ca6eb86c0ae944a8
+PODFILE CHECKSUM: a3e7e376279e79438c070f1452c233e8a760e7b5
 
 COCOAPODS: 1.2.0

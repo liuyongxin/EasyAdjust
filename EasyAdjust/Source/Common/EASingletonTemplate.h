@@ -8,23 +8,45 @@
 #ifndef EASingletonTemplate_h
 #define EASingletonTemplate_h
 
-#define CM_DEFINE_SINGLETON_T_FOR_HEADER(className) +(className *)shared##className;
+#define SINGLETON_T_FOR_HEADER(className) \
+\
++ (className *)shared##className;\
++ (className *)sharedInstance;
 
-//\在代码中用于连接宏定义,以实现多行定义
-#define CM_DEFINE_SINGLETON_T_FOR_CLASS(className) \
-static className *_instance;\
-+(id)shared##className{\
-if(!_instance){\
-_instance=[[self alloc]init];\
+#if !__has_feature(objc_arc)
+
+#define SINGLETON_T_FOR_CLASS(className) \
+\
++ (className *)shared##className { \
+static className *shared##className = nil; \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+shared##className = [self init]; \
+}); \
+return shared##className; \
 }\
-return _instance;\
+\
++ (className *)sharedInstance { \
+return [self shared##className];\
 }\
-+(id)allocWithZone:(struct _NSZone *)zone{\
-static dispatch_once_t dispatchOnce;\
-dispatch_once(&dispatchOnce, ^{\
-_instance=[super allocWithZone:zone];\
-});\
-return _instance;\
-}
+
+#else
+
+#define SINGLETON_T_FOR_CLASS(className) \
+\
++ (className *)shared##className { \
+static className *shared##className = nil; \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+shared##className = [self init]; \
+}); \
+return shared##className; \
+}\
+\
++ (className *)sharedInstance { \
+return [self shared##className];\
+}\
+
+#endif
 
 #endif /* EASingletonTemplate_h */

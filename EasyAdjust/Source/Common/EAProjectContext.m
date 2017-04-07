@@ -10,6 +10,6 @@
 
 @implementation EAProjectContext
 
-CM_DEFINE_SINGLETON_T_FOR_CLASS(EAProjectContext);
+SINGLETON_T_FOR_CLASS(EAProjectContext);
 
 @end

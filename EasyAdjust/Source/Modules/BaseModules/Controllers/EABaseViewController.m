@@ -14,10 +14,37 @@
 
 @implementation EABaseViewController
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self initBasicData];
+    }
+    return self;
+}
+
+- (void)initBasicData{
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self loadUIData];
 }
+
+- (void)loadUIData
+{
+
+
+}
+
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

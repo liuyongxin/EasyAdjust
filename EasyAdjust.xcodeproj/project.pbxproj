@@ -17,11 +17,10 @@
 		4820EB691E962830005C800D /* EARightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB661E962830005C800D /* EARightController.m */; };
 		4820EB6C1E9629FF005C800D /* EAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB6B1E9629FF005C800D /* EAUtil.m */; };
 		4820EB6F1E962A59005C800D /* EAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB6E1E962A59005C800D /* EAAppDelegate.m */; };
-		4820EB721E962E39005C800D /* EAProjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB711E962E39005C800D /* EAProjectContext.m */; };
+		485EFD901E9735B800F9AC04 /* EAProjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 485EFD8F1E9735B800F9AC04 /* EAProjectContext.m */; };
+		485EFD951E973E9500F9AC04 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485EFD941E973E9500F9AC04 /* HealthKit.framework */; };
 		48C572131E88A5E6000EA05E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C572121E88A5E6000EA05E /* main.m */; };
-		48C5721C1E88A5E6000EA05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C5721A1E88A5E6000EA05E /* Main.storyboard */; };
 		48C572211E88A5E6000EA05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C572201E88A5E6000EA05E /* Assets.xcassets */; };
-		48C572241E88A5E6000EA05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C572221E88A5E6000EA05E /* LaunchScreen.storyboard */; };
 		48C5722F1E88A5E6000EA05E /* EasyAdjustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C5722E1E88A5E6000EA05E /* EasyAdjustTests.m */; };
 		48C5723A1E88A5E6000EA05E /* EasyAdjustUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C572391E88A5E6000EA05E /* EasyAdjustUITests.m */; };
 		F474A481982C29A5B135C8F8 /* libPods-EasyAdjust.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A694FD619236433C76406E /* libPods-EasyAdjust.a */; };
@@ -66,20 +65,18 @@
 		4820EB6B1E9629FF005C800D /* EAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAUtil.m; sourceTree = "<group>"; };
 		4820EB6D1E962A59005C800D /* EAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAppDelegate.h; sourceTree = "<group>"; };
 		4820EB6E1E962A59005C800D /* EAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAppDelegate.m; sourceTree = "<group>"; };
-		4820EB701E962E39005C800D /* EAProjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAProjectContext.h; sourceTree = "<group>"; };
-		4820EB711E962E39005C800D /* EAProjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAProjectContext.m; sourceTree = "<group>"; };
 		4820EB731E962E88005C800D /* EASingletonTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EASingletonTemplate.h; sourceTree = "<group>"; };
 		4820EB751E9630AA005C800D /* EATestEnvironmentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EATestEnvironmentConfig.h; sourceTree = "<group>"; };
 		4820EB761E9632AB005C800D /* EAOfficialEnvironmentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAOfficialEnvironmentConfig.h; sourceTree = "<group>"; };
 		4820EB771E9633BA005C800D /* EAProjectDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAProjectDefines.h; sourceTree = "<group>"; };
 		4820EB781E963728005C800D /* EAProjectPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAProjectPrefix.pch; sourceTree = "<group>"; };
-		486DA6331E88B25B00CE0328 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		486DA6341E88B25B00CE0328 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		485EFD8E1E9735B800F9AC04 /* EAProjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAProjectContext.h; sourceTree = "<group>"; };
+		485EFD8F1E9735B800F9AC04 /* EAProjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAProjectContext.m; sourceTree = "<group>"; };
+		485EFD931E973E8B00F9AC04 /* EasyAdjust.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyAdjust.entitlements; sourceTree = "<group>"; };
+		485EFD941E973E9500F9AC04 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		48C5720E1E88A5E6000EA05E /* EasyAdjust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAdjust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C572121E88A5E6000EA05E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		48C5721B1E88A5E6000EA05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48C572201E88A5E6000EA05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		48C572231E88A5E6000EA05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48C572251E88A5E6000EA05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48C5722A1E88A5E6000EA05E /* EasyAdjustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyAdjustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C5722E1E88A5E6000EA05E /* EasyAdjustTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyAdjustTests.m; sourceTree = "<group>"; };
@@ -97,6 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F474A481982C29A5B135C8F8 /* libPods-EasyAdjust.a in Frameworks */,
+				485EFD951E973E9500F9AC04 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +127,7 @@
 		3FDB4C49B91E0E02B9674E94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				485EFD941E973E9500F9AC04 /* HealthKit.framework */,
 				28A694FD619236433C76406E /* libPods-EasyAdjust.a */,
 			);
 			name = Frameworks;
@@ -242,8 +241,8 @@
 		486DA63A1E88DCB300CE0328 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				4820EB701E962E39005C800D /* EAProjectContext.h */,
-				4820EB711E962E39005C800D /* EAProjectContext.m */,
+				485EFD8E1E9735B800F9AC04 /* EAProjectContext.h */,
+				485EFD8F1E9735B800F9AC04 /* EAProjectContext.m */,
 				4820EB731E962E88005C800D /* EASingletonTemplate.h */,
 				4820EB751E9630AA005C800D /* EATestEnvironmentConfig.h */,
 				4820EB761E9632AB005C800D /* EAOfficialEnvironmentConfig.h */,
@@ -327,11 +326,10 @@
 		48C572101E88A5E6000EA05E /* EasyAdjust */ = {
 			isa = PBXGroup;
 			children = (
+				485EFD931E973E8B00F9AC04 /* EasyAdjust.entitlements */,
 				486DA6351E88DCB300CE0328 /* Resource */,
 				486DA6391E88DCB300CE0328 /* Source */,
-				48C5721A1E88A5E6000EA05E /* Main.storyboard */,
 				48C572201E88A5E6000EA05E /* Assets.xcassets */,
-				48C572221E88A5E6000EA05E /* LaunchScreen.storyboard */,
 				48C572251E88A5E6000EA05E /* Info.plist */,
 				48C572111E88A5E6000EA05E /* Supporting Files */,
 			);
@@ -437,6 +435,20 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8YC2YJDRHR;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					48C572291E88A5E6000EA05E = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -477,9 +489,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C572241E88A5E6000EA05E /* LaunchScreen.storyboard in Resources */,
 				48C572211E88A5E6000EA05E /* Assets.xcassets in Resources */,
-				48C5721C1E88A5E6000EA05E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,7 +563,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4820EB451E962591005C800D /* EATabBarView.m in Sources */,
-				4820EB721E962E39005C800D /* EAProjectContext.m in Sources */,
 				4820EB681E962830005C800D /* EALeftController.m in Sources */,
 				4820EB561E962698005C800D /* EABaseTabBarController.m in Sources */,
 				4820EB5A1E962698005C800D /* EANavigationController.m in Sources */,
@@ -564,6 +573,7 @@
 				4820EB691E962830005C800D /* EARightController.m in Sources */,
 				4820EB571E962698005C800D /* EABaseViewController.m in Sources */,
 				4820EB6C1E9629FF005C800D /* EAUtil.m in Sources */,
+				485EFD901E9735B800F9AC04 /* EAProjectContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,27 +607,6 @@
 			targetProxy = 48C572361E88A5E6000EA05E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		48C5721A1E88A5E6000EA05E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48C5721B1E88A5E6000EA05E /* Base */,
-				486DA6331E88B25B00CE0328 /* zh-Hans */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		48C572221E88A5E6000EA05E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48C572231E88A5E6000EA05E /* Base */,
-				486DA6341E88B25B00CE0328 /* zh-Hans */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		48C5723C1E88A5E6000EA05E /* Debug */ = {
@@ -717,6 +706,8 @@
 			baseConfigurationReference = 8455E03FF3372F9AC4C46A08 /* Pods-EasyAdjust.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = EasyAdjust/EasyAdjust.entitlements;
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/EasyAdjust/EAProjectPrefix.pch";
@@ -734,6 +725,8 @@
 			baseConfigurationReference = 9E9E2FE317CADE1C5344EE70 /* Pods-EasyAdjust.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = EasyAdjust/EasyAdjust.entitlements;
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/EasyAdjust/EAProjectPrefix.pch";

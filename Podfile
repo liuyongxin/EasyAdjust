@@ -30,6 +30,7 @@ pod 'MJUtils'
 pod 'MJWUpdate'
 pod 'MJCacheManager'
 pod 'MJExtension'
+pod 'MJUtils'
 #MJ控件
 pod 'MMDrawerController'  #抽屉效果
 pod 'MMDrawerController+Storyboard'

@@ -15,8 +15,9 @@
 #import "EAOfficialEnvironmentConfig.h"
 #endif
 
-#import "EAProjectContext.h"
+
 #import "EASingletonTemplate.h"
+#import "EAProjectContext.h"
 
 
 #endif /* EAProjectDefines_h */

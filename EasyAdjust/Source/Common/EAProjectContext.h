@@ -17,10 +17,10 @@
 #define ScreenNavigationBarHeight 44
 #define ScreenTabBarHeight      49
 
+#define ProjectContext [EAProjectContext sharedInstance]
 
 @interface EAProjectContext : NSObject
 
-CM_DEFINE_SINGLETON_T_FOR_HEADER(EAProjectContext);
-
+SINGLETON_T_FOR_HEADER(EAProjectContext);
 
 @end

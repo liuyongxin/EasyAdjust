@@ -60,6 +60,12 @@ PODS:
   - OpenUDID (1.0.0)
   - PhotoAlbum (0.5.0)
   - PhotoBrowser (0.6.3)
+  - Reachability (3.2)
+  - RealReachability (1.1.8):
+    - RealReachability/Connection (= 1.1.8)
+    - RealReachability/Ping (= 1.1.8)
+  - RealReachability/Connection (1.1.8)
+  - RealReachability/Ping (1.1.8)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
@@ -93,6 +99,8 @@ DEPENDENCIES:
   - OpenUDID
   - PhotoAlbum
   - PhotoBrowser
+  - Reachability
+  - RealReachability
   - SDWebImage
   - YYKit
 
@@ -121,10 +129,12 @@ SPEC CHECKSUMS:
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   PhotoAlbum: e0c8051cd705f941ae485773a55a77cf1aaa4bdf
   PhotoBrowser: e469d76e5b02d12c2427d620404c54f1c327be3c
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
 
-PODFILE CHECKSUM: fd6af059b08b1eaec7e415de3fab6e167dc8606a
+PODFILE CHECKSUM: c5cc6e4bf15a0d073b54a040a8676688d5f0b244
 
 COCOAPODS: 1.2.0

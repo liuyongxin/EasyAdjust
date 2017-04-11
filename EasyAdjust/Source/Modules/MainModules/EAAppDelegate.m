@@ -21,8 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self initRootViewController];
-    
-    
+    [self setup3DTouch:application];
     
     return YES;
 }
@@ -31,8 +30,8 @@
 {
     EACenterTabBarController *centerTabBarController = [[EACenterTabBarController alloc]init];
     EALeftController *leftController = [[EALeftController alloc]init];
-    EARightController *rightController = [[EARightController alloc]init];
-    MMDrawerController *drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerTabBarController leftDrawerViewController:leftController rightDrawerViewController:rightController];
+//    EARightController *rightController = [[EARightController alloc]init];
+    MMDrawerController *drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerTabBarController leftDrawerViewController:leftController rightDrawerViewController:nil];
     drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
     drawerController.closeDrawerGestureModeMask =MMCloseDrawerGestureModeAll;
     drawerController.maximumLeftDrawerWidth = ScreenWidth * 0.8;
@@ -42,6 +41,40 @@
     [self.window makeKeyAndVisible];
 }
 
+/**
+ 设置3Dtouch菜单
+ */
+- (void)setup3DTouch:(UIApplication *)application
+{
+    UIApplicationShortcutIcon *shortcutIcon1 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeCapturePhoto];
+    UIApplicationShortcutItem *shortcutItem1 = [[UIApplicationShortcutItem alloc]initWithType:@"CapturePhoto" localizedTitle:@"拍照" localizedSubtitle:@"快速拍照" icon:shortcutIcon1 userInfo:nil];
+    UIApplicationShortcutIcon *shortcutIcon2 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeAudio];
+    UIApplicationShortcutItem *shortcutItem2 = [[UIApplicationShortcutItem alloc]initWithType:@"Audio" localizedTitle:@"录音" localizedSubtitle:@"快速录音" icon:shortcutIcon2 userInfo:nil];
+    UIApplicationShortcutIcon *shortcutIcon3 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeCaptureVideo];
+    UIApplicationShortcutItem *shortcutItem3 = [[UIApplicationShortcutItem alloc]initWithType:@"CaptureVideo" localizedTitle:@"拍视频" localizedSubtitle:@"快速拍视频" icon:shortcutIcon3 userInfo:nil];
+    UIApplicationShortcutIcon *shortcutIcon4 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeSearch];
+    UIApplicationShortcutItem *shortcutItem4 = [[UIApplicationShortcutItem alloc]initWithType:@"Search" localizedTitle:@"扫码" localizedSubtitle:@"快速扫码" icon:shortcutIcon4 userInfo:nil];
+    application.shortcutItems = @[shortcutItem1,shortcutItem2,shortcutItem3,shortcutItem4];
+}
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void(^)(BOOL succeeded))completionHandler
+{
+    if ([shortcutItem.type isEqualToString:@"CapturePhoto"]) { //拍照
+        
+    }
+    else if ([shortcutItem.type isEqualToString:@"Audio"]) //录音
+    {
+    
+    }
+    else if ([shortcutItem.type isEqualToString:@"CaptureVideo"]) //录视频
+    {
+        
+    }
+    else if ([shortcutItem.type isEqualToString:@"Search"])
+    {
+        
+    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

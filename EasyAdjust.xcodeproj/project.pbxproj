@@ -17,6 +17,11 @@
 		4820EB691E962830005C800D /* EARightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB661E962830005C800D /* EARightController.m */; };
 		4820EB6C1E9629FF005C800D /* EAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB6B1E9629FF005C800D /* EAUtil.m */; };
 		4820EB6F1E962A59005C800D /* EAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB6E1E962A59005C800D /* EAAppDelegate.m */; };
+		4825FE381E9CA7A600EA8857 /* EADataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4825FE371E9CA7A600EA8857 /* EADataBaseManager.m */; };
+		4825FE3B1E9CA80E00EA8857 /* EALoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4825FE3A1E9CA80E00EA8857 /* EALoginManager.m */; };
+		4825FE3E1E9CA89D00EA8857 /* EANetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4825FE3D1E9CA89D00EA8857 /* EANetworkManager.m */; };
+		4825FE411E9CAE5600EA8857 /* EAThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4825FE401E9CAE5600EA8857 /* EAThemeManager.m */; };
+		484D9BCD1E9CDA4000762D9B /* Emotion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 484D9BCC1E9CDA4000762D9B /* Emotion.bundle */; };
 		485EFD901E9735B800F9AC04 /* EAProjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 485EFD8F1E9735B800F9AC04 /* EAProjectContext.m */; };
 		485EFD951E973E9500F9AC04 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485EFD941E973E9500F9AC04 /* HealthKit.framework */; };
 		48C572131E88A5E6000EA05E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C572121E88A5E6000EA05E /* main.m */; };
@@ -70,6 +75,15 @@
 		4820EB761E9632AB005C800D /* EAOfficialEnvironmentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAOfficialEnvironmentConfig.h; sourceTree = "<group>"; };
 		4820EB771E9633BA005C800D /* EAProjectDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAProjectDefines.h; sourceTree = "<group>"; };
 		4820EB781E963728005C800D /* EAProjectPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAProjectPrefix.pch; sourceTree = "<group>"; };
+		4825FE361E9CA7A600EA8857 /* EADataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EADataBaseManager.h; sourceTree = "<group>"; };
+		4825FE371E9CA7A600EA8857 /* EADataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EADataBaseManager.m; sourceTree = "<group>"; };
+		4825FE391E9CA80E00EA8857 /* EALoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EALoginManager.h; sourceTree = "<group>"; };
+		4825FE3A1E9CA80E00EA8857 /* EALoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EALoginManager.m; sourceTree = "<group>"; };
+		4825FE3C1E9CA89D00EA8857 /* EANetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EANetworkManager.h; sourceTree = "<group>"; };
+		4825FE3D1E9CA89D00EA8857 /* EANetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EANetworkManager.m; sourceTree = "<group>"; };
+		4825FE3F1E9CAE5600EA8857 /* EAThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAThemeManager.h; sourceTree = "<group>"; };
+		4825FE401E9CAE5600EA8857 /* EAThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAThemeManager.m; sourceTree = "<group>"; };
+		484D9BCC1E9CDA4000762D9B /* Emotion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emotion.bundle; sourceTree = "<group>"; };
 		485EFD8E1E9735B800F9AC04 /* EAProjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAProjectContext.h; sourceTree = "<group>"; };
 		485EFD8F1E9735B800F9AC04 /* EAProjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAProjectContext.m; sourceTree = "<group>"; };
 		485EFD931E973E8B00F9AC04 /* EasyAdjust.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyAdjust.entitlements; sourceTree = "<group>"; };
@@ -206,6 +220,7 @@
 		486DA6361E88DCB300CE0328 /* Bundles */ = {
 			isa = PBXGroup;
 			children = (
+				484D9BCC1E9CDA4000762D9B /* Emotion.bundle */,
 			);
 			path = Bundles;
 			sourceTree = "<group>";
@@ -261,6 +276,14 @@
 		486DA63C1E88DCB300CE0328 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				4825FE361E9CA7A600EA8857 /* EADataBaseManager.h */,
+				4825FE371E9CA7A600EA8857 /* EADataBaseManager.m */,
+				4825FE391E9CA80E00EA8857 /* EALoginManager.h */,
+				4825FE3A1E9CA80E00EA8857 /* EALoginManager.m */,
+				4825FE3C1E9CA89D00EA8857 /* EANetworkManager.h */,
+				4825FE3D1E9CA89D00EA8857 /* EANetworkManager.m */,
+				4825FE3F1E9CAE5600EA8857 /* EAThemeManager.h */,
+				4825FE401E9CAE5600EA8857 /* EAThemeManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -490,6 +513,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C572211E88A5E6000EA05E /* Assets.xcassets in Resources */,
+				484D9BCD1E9CDA4000762D9B /* Emotion.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,15 +589,19 @@
 				4820EB451E962591005C800D /* EATabBarView.m in Sources */,
 				4820EB681E962830005C800D /* EALeftController.m in Sources */,
 				4820EB561E962698005C800D /* EABaseTabBarController.m in Sources */,
+				4825FE3B1E9CA80E00EA8857 /* EALoginManager.m in Sources */,
 				4820EB5A1E962698005C800D /* EANavigationController.m in Sources */,
+				4825FE381E9CA7A600EA8857 /* EADataBaseManager.m in Sources */,
 				4820EB6F1E962A59005C800D /* EAAppDelegate.m in Sources */,
 				48C572131E88A5E6000EA05E /* main.m in Sources */,
 				4820EB671E962830005C800D /* EACenterController.m in Sources */,
 				4820EB601E9627F1005C800D /* EACenterTabBarController.m in Sources */,
 				4820EB691E962830005C800D /* EARightController.m in Sources */,
 				4820EB571E962698005C800D /* EABaseViewController.m in Sources */,
+				4825FE3E1E9CA89D00EA8857 /* EANetworkManager.m in Sources */,
 				4820EB6C1E9629FF005C800D /* EAUtil.m in Sources */,
 				485EFD901E9735B800F9AC04 /* EAProjectContext.m in Sources */,
+				4825FE411E9CAE5600EA8857 /* EAThemeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +736,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = EasyAdjust/EasyAdjust.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/EasyAdjust/EAProjectPrefix.pch";
@@ -716,6 +745,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Louis.EasyAdjust.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -727,6 +757,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = EasyAdjust/EasyAdjust.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/EasyAdjust/EAProjectPrefix.pch";
@@ -735,6 +766,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Louis.EasyAdjust.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

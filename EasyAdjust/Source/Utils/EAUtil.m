@@ -10,4 +10,14 @@
 
 @implementation EAUtil
 
++ (CGFloat)currentDeviceSystemVersion
+{
+    return [[[UIDevice currentDevice] systemVersion] floatValue];
+}
+
++ (CGFloat)currentShortAppVersion
+{
+    return 1;
+}
+
 @end

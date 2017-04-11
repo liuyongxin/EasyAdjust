@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <malloc/malloc.h>
 
 @interface EAUtil : NSObject
+
+//当前设备系统版本号
++ (CGFloat)currentDeviceSystemVersion;
 
 @end

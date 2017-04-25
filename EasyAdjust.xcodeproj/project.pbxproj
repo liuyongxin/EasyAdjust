@@ -12,7 +12,6 @@
 		4820EB571E962698005C800D /* EABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB4C1E962698005C800D /* EABaseViewController.m */; };
 		4820EB5A1E962698005C800D /* EANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB521E962698005C800D /* EANavigationController.m */; };
 		4820EB601E9627F1005C800D /* EACenterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB5F1E9627F1005C800D /* EACenterTabBarController.m */; };
-		4820EB671E962830005C800D /* EACenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB621E962830005C800D /* EACenterController.m */; };
 		4820EB681E962830005C800D /* EALeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB641E962830005C800D /* EALeftController.m */; };
 		4820EB691E962830005C800D /* EARightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB661E962830005C800D /* EARightController.m */; };
 		4820EB6C1E9629FF005C800D /* EAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4820EB6B1E9629FF005C800D /* EAUtil.m */; };
@@ -21,6 +20,7 @@
 		4825FE3B1E9CA80E00EA8857 /* EALoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4825FE3A1E9CA80E00EA8857 /* EALoginManager.m */; };
 		4825FE3E1E9CA89D00EA8857 /* EANetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4825FE3D1E9CA89D00EA8857 /* EANetworkManager.m */; };
 		4825FE411E9CAE5600EA8857 /* EAThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4825FE401E9CAE5600EA8857 /* EAThemeManager.m */; };
+		482DB2731EAEE5A300ECABD7 /* SM2Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 482DB2721EAEE5A300ECABD7 /* SM2Encryption.m */; };
 		484D9BCD1E9CDA4000762D9B /* Emotion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 484D9BCC1E9CDA4000762D9B /* Emotion.bundle */; };
 		485EFD901E9735B800F9AC04 /* EAProjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 485EFD8F1E9735B800F9AC04 /* EAProjectContext.m */; };
 		485EFD951E973E9500F9AC04 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485EFD941E973E9500F9AC04 /* HealthKit.framework */; };
@@ -60,8 +60,6 @@
 		4820EB521E962698005C800D /* EANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EANavigationController.m; sourceTree = "<group>"; };
 		4820EB5E1E9627F1005C800D /* EACenterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EACenterTabBarController.h; sourceTree = "<group>"; };
 		4820EB5F1E9627F1005C800D /* EACenterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EACenterTabBarController.m; sourceTree = "<group>"; };
-		4820EB611E962830005C800D /* EACenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EACenterController.h; sourceTree = "<group>"; };
-		4820EB621E962830005C800D /* EACenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EACenterController.m; sourceTree = "<group>"; };
 		4820EB631E962830005C800D /* EALeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EALeftController.h; sourceTree = "<group>"; };
 		4820EB641E962830005C800D /* EALeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EALeftController.m; sourceTree = "<group>"; };
 		4820EB651E962830005C800D /* EARightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EARightController.h; sourceTree = "<group>"; };
@@ -83,6 +81,8 @@
 		4825FE3D1E9CA89D00EA8857 /* EANetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EANetworkManager.m; sourceTree = "<group>"; };
 		4825FE3F1E9CAE5600EA8857 /* EAThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAThemeManager.h; sourceTree = "<group>"; };
 		4825FE401E9CAE5600EA8857 /* EAThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAThemeManager.m; sourceTree = "<group>"; };
+		482DB2711EAEE5A300ECABD7 /* SM2Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SM2Encryption.h; sourceTree = "<group>"; };
+		482DB2721EAEE5A300ECABD7 /* SM2Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SM2Encryption.m; sourceTree = "<group>"; };
 		484D9BCC1E9CDA4000762D9B /* Emotion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emotion.bundle; sourceTree = "<group>"; };
 		485EFD8E1E9735B800F9AC04 /* EAProjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAProjectContext.h; sourceTree = "<group>"; };
 		485EFD8F1E9735B800F9AC04 /* EAProjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAProjectContext.m; sourceTree = "<group>"; };
@@ -181,8 +181,6 @@
 		4820EB5D1E96275D005C800D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4820EB611E962830005C800D /* EACenterController.h */,
-				4820EB621E962830005C800D /* EACenterController.m */,
 				4820EB631E962830005C800D /* EALeftController.h */,
 				4820EB641E962830005C800D /* EALeftController.m */,
 				4820EB651E962830005C800D /* EARightController.h */,
@@ -205,6 +203,15 @@
 			children = (
 			);
 			path = PersonalCenterModules;
+			sourceTree = "<group>";
+		};
+		482DB2701EAEE3CB00ECABD7 /* SM2_Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				482DB2711EAEE5A300ECABD7 /* SM2Encryption.h */,
+				482DB2721EAEE5A300ECABD7 /* SM2Encryption.m */,
+			);
+			path = SM2_Encryption;
 			sourceTree = "<group>";
 		};
 		486DA6351E88DCB300CE0328 /* Resource */ = {
@@ -302,6 +309,7 @@
 		486DA63E1E88DCB300CE0328 /* ThirdLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				482DB2701EAEE3CB00ECABD7 /* SM2_Encryption */,
 			);
 			path = ThirdLibrary;
 			sourceTree = "<group>";
@@ -594,9 +602,9 @@
 				4825FE381E9CA7A600EA8857 /* EADataBaseManager.m in Sources */,
 				4820EB6F1E962A59005C800D /* EAAppDelegate.m in Sources */,
 				48C572131E88A5E6000EA05E /* main.m in Sources */,
-				4820EB671E962830005C800D /* EACenterController.m in Sources */,
 				4820EB601E9627F1005C800D /* EACenterTabBarController.m in Sources */,
 				4820EB691E962830005C800D /* EARightController.m in Sources */,
+				482DB2731EAEE5A300ECABD7 /* SM2Encryption.m in Sources */,
 				4820EB571E962698005C800D /* EABaseViewController.m in Sources */,
 				4825FE3E1E9CA89D00EA8857 /* EANetworkManager.m in Sources */,
 				4820EB6C1E9629FF005C800D /* EAUtil.m in Sources */,

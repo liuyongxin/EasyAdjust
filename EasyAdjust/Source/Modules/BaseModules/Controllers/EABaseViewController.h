@@ -10,4 +10,7 @@
 
 @interface EABaseViewController : UIViewController
 
+- (void)initBasicData;
+- (void)loadUIData;
+
 @end

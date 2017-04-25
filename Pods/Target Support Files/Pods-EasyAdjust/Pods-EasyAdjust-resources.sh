@@ -77,26 +77,34 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
   install_resource "GPUImage/framework/Resources/lookup.png"
   install_resource "GPUImage/framework/Resources/lookup_amatorka.png"
   install_resource "GPUImage/framework/Resources/lookup_miss_etikate.png"
   install_resource "GPUImage/framework/Resources/lookup_soft_elegance_1.png"
   install_resource "GPUImage/framework/Resources/lookup_soft_elegance_2.png"
+  install_resource "LBXScan/LBXScan/UI/CodeScan.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "PhotoAlbum/PhotoAlbum/Assets/ZQAlbumCell.xib"
   install_resource "PhotoAlbum/PhotoAlbum/Assets/PA.bundle"
+  install_resource "ZBarSDK/iphone/res/zbar-back.png"
+  install_resource "ZBarSDK/iphone/res/zbar-help.html"
+  install_resource "ZBarSDK/iphone/res/zbar-helpicons.png"
+  install_resource "ZBarSDK/iphone/res/zbar-samples.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
   install_resource "GPUImage/framework/Resources/lookup.png"
   install_resource "GPUImage/framework/Resources/lookup_amatorka.png"
   install_resource "GPUImage/framework/Resources/lookup_miss_etikate.png"
   install_resource "GPUImage/framework/Resources/lookup_soft_elegance_1.png"
   install_resource "GPUImage/framework/Resources/lookup_soft_elegance_2.png"
+  install_resource "LBXScan/LBXScan/UI/CodeScan.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "PhotoAlbum/PhotoAlbum/Assets/ZQAlbumCell.xib"
   install_resource "PhotoAlbum/PhotoAlbum/Assets/PA.bundle"
+  install_resource "ZBarSDK/iphone/res/zbar-back.png"
+  install_resource "ZBarSDK/iphone/res/zbar-help.html"
+  install_resource "ZBarSDK/iphone/res/zbar-helpicons.png"
+  install_resource "ZBarSDK/iphone/res/zbar-samples.png"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

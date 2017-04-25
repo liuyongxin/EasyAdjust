@@ -14,15 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - BaiduMapKit (3.2.1)
   - CMTabbarView (0.1.1)
   - CocoaAsyncSocket (7.6.0)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
   - GPUImage (0.1.7)
-  - LBXScan (1.1.1):
-    - ZXingObjC (~> 3.0)
+  - LBXScan (2.0):
+    - LBXScan/All (= 2.0)
+  - LBXScan/All (2.0):
+    - ZBarSDK (~> 1.3.1)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJCacheManager (0.1.0):
@@ -41,7 +42,7 @@ PODS:
   - MJWebService (0.1.1):
     - AFNetworking/NSURLSession (~> 3.1.0)
     - ModuleCapability (~> 0.1.1)
-  - MJWUpdate (1.0.1)
+  - MJWUpdate (1.1.0)
   - MMDrawerController (0.6.0):
     - MMDrawerController/Core (= 0.6.0)
     - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
@@ -57,6 +58,7 @@ PODS:
   - MMDrawerController/Subclass (0.6.0):
     - MMDrawerController/Core
   - ModuleCapability (0.1.2)
+  - OpenSSL (1.0.210)
   - OpenUDID (1.0.0)
   - PhotoAlbum (0.5.0)
   - PhotoBrowser (0.6.3)
@@ -72,13 +74,10 @@ PODS:
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
-  - ZXingObjC (3.2.1):
-    - ZXingObjC/All (= 3.2.1)
-  - ZXingObjC/All (3.2.1)
+  - ZBarSDK (1.3.1)
 
 DEPENDENCIES:
   - AFNetworking
-  - BaiduMapKit
   - CMTabbarView
   - CocoaAsyncSocket
   - FMDB
@@ -96,6 +95,7 @@ DEPENDENCIES:
   - MJWUpdate
   - MMDrawerController
   - MMDrawerController+Storyboard
+  - OpenSSL
   - OpenUDID
   - PhotoAlbum
   - PhotoBrowser
@@ -106,12 +106,11 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  BaiduMapKit: 9c748785aa3dddfc41dcb70c14b21ce32f680930
   CMTabbarView: 6a66fa1f17a0c789c8484c26d7bd17fd6189fa7e
   CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
-  LBXScan: dfb4d8ae8e4cff2aa0c9e1771e43954dce1469a9
+  LBXScan: 458f4b7a6688504a1415dc4a0f9822100e099f66
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJCacheManager: 903b5d9290930eaecb25fad4afb0eace68ff96c1
@@ -122,10 +121,11 @@ SPEC CHECKSUMS:
   MJTimeManager: 691b176b28d4e48595d2a8f0efaba922b3a2e9b7
   MJUtils: 0e1d68b753e897b89e4b3f2b1ef28b5993216fee
   MJWebService: ebe871b8f7cf648e1a49daf071ada69b902d8270
-  MJWUpdate: eaa4dc64ed4f7b967705cceb4b9e6dc052003576
+  MJWUpdate: 8a4c39049717073dbd70fb42c84e83bcce79be8a
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   MMDrawerController+Storyboard: c98f86c0f32cdef1d466d19a7da3ad2fc6c6ac00
   ModuleCapability: 35cea7154ff855362682e90ecf1be529a533c931
+  OpenSSL: 246ffb948e9d56466727fd318134af35f5aa764e
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   PhotoAlbum: e0c8051cd705f941ae485773a55a77cf1aaa4bdf
   PhotoBrowser: e469d76e5b02d12c2427d620404c54f1c327be3c
@@ -133,8 +133,8 @@ SPEC CHECKSUMS:
   RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
-  ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
+  ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: c5cc6e4bf15a0d073b54a040a8676688d5f0b244
+PODFILE CHECKSUM: bf88df2ac5fbfbcc5b237079d6e8331052807b0b
 
 COCOAPODS: 1.2.0

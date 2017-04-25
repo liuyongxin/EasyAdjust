@@ -11,6 +11,7 @@
 #import "EACenterTabBarController.h"
 #import "EALeftController.h"
 #import "EARightController.h"
+#import "EANetworkManager.h"
 
 @interface EAAppDelegate ()
 
@@ -20,10 +21,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self initSingletonData];
     [self initRootViewController];
     [self setup3DTouch:application];
     
     return YES;
+}
+
+- (void)initSingletonData{
+    [EANetworkManager sharedInstance];
+    [NetworkManager connectToServer:@"10.15.52.150" port:8080];
 }
 
 - (void)initRootViewController

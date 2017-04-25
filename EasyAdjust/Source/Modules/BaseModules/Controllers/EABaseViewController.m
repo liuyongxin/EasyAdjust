@@ -23,7 +23,8 @@
     return self;
 }
 
-- (void)initBasicData{
+- (void)initBasicData
+{
 
 }
 

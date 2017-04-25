@@ -14,7 +14,12 @@
 
 #define BUILD_ENV_CONF BUILD_ENV_TEST
 
+#ifdef __OBJC__
 
+#import "EASingletonTemplate.h"
 #import "EAProjectDefines.h"
+#import "EAProjectContext.h"
+
+#endif
 
 #endif /* EAProjectPrefix_pch */

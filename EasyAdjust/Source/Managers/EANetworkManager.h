@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+#define NetworkManager  [EANetworkManager sharedInstance]
 @interface EANetworkManager : NSObject
+
+SINGLETON_T_FOR_HEADER(EANetworkManager);
+
+
+- (void)connectToServer:(NSString *)host port:(int )port;
+
 
 @end

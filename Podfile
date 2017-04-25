@@ -18,7 +18,6 @@ pod 'MBProgressHUD'
 pod 'FMDB'
 pod 'OpenUDID'
 pod 'YYKit'
-pod 'BaiduMapKit'
 pod 'LBXScan' #扫描库
 pod 'CocoaAsyncSocket'
 pod 'PhotoAlbum'
@@ -39,5 +38,7 @@ pod 'MMDrawerController'  #抽屉效果
 pod 'MMDrawerController+Storyboard'
 pod 'GPUImage'
 pod 'CMTabbarView'
+
+pod 'OpenSSL'
 
 end
